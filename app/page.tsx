@@ -165,8 +165,7 @@ export default function LandingPage() {
             {[
               { icon: Shield, title: "EXPERT CLEANER", desc: "Ditangani oleh profesional berpengalaman." },
               { icon: BadgeDollarSign, title: "AFFORDABLE PRICE", desc: "Harga transparan dan kompetitif." },
-              { icon: Truck, title: "EXPRESS DELIVERY", desc: "Layanan antar jemput tepat waktu." },
-              { icon: CheckCircle, title: "QUALITY GUARANTEE", desc: "Garansi cuci ulang jika tidak puas." },
+              { icon: Truck, title: "EXPRESS DELIVERY", desc: "Layanan antar jemput tepat waktu." }
             ].map((item, i) => (
               <motion.div key={i} {...fadeInUp} className="p-8 rounded-[2rem] border border-blue-50 shadow-lg text-center bg-white hover:shadow-blue-100 transition-all">
                 <div className="bg-blue-500 w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-6 text-white">
@@ -270,7 +269,7 @@ export default function LandingPage() {
           <div>
             <h4 className="font-bold mb-6 uppercase tracking-widest text-blue-300">Contact Us</h4>
             <div className="flex flex-col gap-4 text-sm text-blue-100/80 font-medium">
-              <span className="flex items-center gap-3 justify-center md:justify-start"><MapPin size={18} className="text-blue-400"/> Jakarta, Indonesia</span>
+              <span className="flex items-center gap-3 justify-center md:justify-start"><MapPin size={18} className="text-blue-400"/> Lampung, Indonesia</span>
               <span className="flex items-center gap-3 justify-center md:justify-start"><Phone size={18} className="text-blue-400"/> +62 812-3456-7890</span>
               <span className="flex items-center gap-3 justify-center md:justify-start"><Mail size={18} className="text-blue-400"/> onlaundry@gmail.com</span>
             </div>
